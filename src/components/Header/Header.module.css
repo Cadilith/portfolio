@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.header ul,
+.header li {
+  display: block;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 5px 25px 5px 25px;
+  border-top: 1px solid var(--secondary-color);
+}
+.header nav {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  border-left: 1px solid var(--secondary-color);
+}
+.header h1 {
+  text-transform: uppercase;
+  width: 80%;
+  padding: 15px 10px 5px 10px;
+}
+.italic {
+  font-style: italic;
+  letter-spacing: 0.3rem;
+}
+.block {
+  background-color: var(--secondary-color);
+  flex: auto;
+}

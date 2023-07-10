@@ -1,0 +1,6 @@
+.footer {
+  font-size: 0.9rem;
+  text-align: right;
+  padding: 15px;
+  border-top: 1px solid var(--secondary-color);
+}

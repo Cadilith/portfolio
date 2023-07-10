@@ -1,0 +1,6 @@
+.slider {
+  width: 33%;
+  background-color: aquamarine;
+  padding: 15px;
+  border-left: 1px solid var(--secondary-color);
+}
