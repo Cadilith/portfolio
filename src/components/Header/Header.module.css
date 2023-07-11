@@ -35,4 +35,16 @@
 .block {
   background-color: var(--secondary-color);
   flex: auto;
+  position: relative;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--primary-color);
+  rotate: 45deg;
+  position: absolute;
+  top: 5px;
+  right: 0;
 }

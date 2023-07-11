@@ -1,9 +1,9 @@
 import './globals.css';
 import { Abel } from 'next/font/google';
+import EmblaCarousel from '../components/Slider/EmblaCarousel';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import Slider from '../components/Slider/Slider';
 
 const abel = Abel({
   subsets: ['latin'],
@@ -15,6 +15,10 @@ export const metadata = {
   description: "I'm a junior web developer who yearns to learn more",
 };
 
+const OPTIONS = { axis: 'y', loop: true };
+const SLIDE_COUNT = 3;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -22,7 +26,10 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="container">
           {children}
-          <Slider />
+          <aside>
+            <h2>Projects</h2>
+            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          </aside>
         </div>
         <Footer />
       </body>

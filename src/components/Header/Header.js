@@ -10,7 +10,9 @@ export default function Header() {
         <span className={styles.italic}>i</span>
       </h1>
       <nav>
-        <div className={styles.block}></div>
+        <div className={styles.block}>
+          <div className={styles.arrow}></div>
+        </div>
         <ul>
           <li>
             <Link href="/">Home</Link>

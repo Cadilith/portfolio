@@ -1,10 +1,13 @@
 :root {
   --secondary-color: black;
   --primary-color: white;
+  font-size: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --primary-color: black;
+    --secondary-color: white;
   }
 }
 
@@ -28,6 +31,16 @@ main {
   flex: auto;
   padding: 15px;
 }
+aside {
+  width: 33%;
+  padding: 15px;
+  border-left: 1px solid var(--secondary-color);
+  position: relative;
+}
+aside h2 {
+  text-align: right;
+  font-size: 67px;
+}
 
 a {
   color: inherit;
@@ -39,7 +52,4 @@ a {
   display: flex;
   flex-direction: row;
   flex: auto;
-}
-
-@media (prefers-color-scheme: dark) {
 }
