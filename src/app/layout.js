@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 const OPTIONS = { axis: 'y', loop: true };
-const SLIDE_COUNT = 3;
+const SLIDE_COUNT = 4;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function RootLayout({ children }) {
