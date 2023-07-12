@@ -7,10 +7,10 @@ import {
   NextButton,
   usePrevNextButtons,
 } from './EmblaCarouselArrowButtons';
-import imageByIndex from './imageByIndex';
+// import imageByIndex from './imageByIndex';
 
 export default function EmblaCarousel(props) {
-  const { slides, options } = props;
+  const { data, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
 
   const {
@@ -24,21 +24,31 @@ export default function EmblaCarousel(props) {
     <div className={styles.embla}>
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
-          {slides.map((index) => (
-            <div className={styles.embla__slide} key={index}>
+          {data.map((d, index) => (
+            <div className={styles.embla__slide} key={d.id + index}>
+              <Image
+                className={styles.embla__slide__logo}
+                src={d.logo}
+                alt={d.title + ' logo'}
+                height={70}
+                width={230}
+              />
               <Image
                 className={styles.embla__slide__img}
-                src={imageByIndex(index)}
-                alt="Your alt text"
+                src={d.cover}
+                alt={d.title}
+                width={380}
+                height={480}
+                quality={90}
               />
             </div>
           ))}
         </div>
-      </div>
 
-      <div className={styles.embla__buttons}>
-        <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-        <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        <div className={styles.embla__buttons}>
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        </div>
       </div>
     </div>
   );

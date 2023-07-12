@@ -4,6 +4,7 @@ import EmblaCarousel from '../components/Slider/EmblaCarousel';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import data from '/json/projets.json';
 
 const abel = Abel({
   subsets: ['latin'],
@@ -12,12 +13,10 @@ const abel = Abel({
 
 export const metadata = {
   title: 'Web developer portfolio - Tiffanie Orsoni',
-  description: "I'm a junior web developer who yearns to learn more",
+  description: "I'm a junior web developer always yearning to learn more",
 };
 
 const OPTIONS = { axis: 'y', loop: true };
-const SLIDE_COUNT = 4;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function RootLayout({ children }) {
   return (
@@ -28,7 +27,7 @@ export default function RootLayout({ children }) {
           {children}
           <aside>
             <h2>Projects</h2>
-            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+            <EmblaCarousel data={data} options={OPTIONS} />
           </aside>
         </div>
         <Footer />
