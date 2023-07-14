@@ -48,3 +48,30 @@
   top: 5px;
   right: 0;
 }
+@media (max-width: 768px) {
+  .header h1 {
+    width: 50%;
+  }
+  .header nav {
+    width: 50%;
+  }
+  .header ul {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+  .header h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .header nav {
+    border-left: none;
+    width: 100%;
+  }
+  .header ul {
+    justify-content: space-around;
+  }
+}
