@@ -26,13 +26,9 @@ export default function EmblaCarousel(props) {
         <div className={styles.embla__container}>
           {data.map((d, index) => (
             <div className={styles.embla__slide} key={d.id + index}>
-              <Image
-                className={styles.embla__slide__logo}
-                src={d.logo}
-                alt={d.title + ' logo'}
-                height={70}
-                width={230}
-              />
+              <div className={styles.embla__slide__logo}>
+                <Image src={d.logo} alt={d.title + ' logo'} fill={true} />
+              </div>
               <Image
                 className={styles.embla__slide__img}
                 src={d.cover}

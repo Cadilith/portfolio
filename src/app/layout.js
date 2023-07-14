@@ -16,7 +16,14 @@ export const metadata = {
   description: "I'm a junior web developer always yearning to learn more",
 };
 
-const OPTIONS = { axis: 'y', loop: true };
+const OPTIONS = {
+  axis: 'y',
+  loop: true,
+  align: 'center',
+  breakpoints: {
+    '(max-width: 768px)': { axis: 'x' },
+  },
+};
 
 export default function RootLayout({ children }) {
   return (

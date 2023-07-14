@@ -55,3 +55,21 @@ a {
   flex-direction: row;
   flex: auto;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  aside {
+    order: 1;
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  aside h2 {
+    text-align: left;
+  }
+  main {
+    order: 2;
+  }
+}

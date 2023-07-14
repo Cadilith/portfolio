@@ -9,6 +9,7 @@
 }
 .embla__viewport {
   overflow: hidden;
+  /* a supri ?*/
   height: 100%;
 }
 .embla__container {
@@ -34,8 +35,11 @@
 }
 .embla__slide__logo {
   position: absolute;
+  box-sizing: border-box;
   top: 30px;
-  left: 15px;
+  left: 10px;
+  height: 16%;
+  width: 80%;
 }
 .embla__button {
   -webkit-appearance: none;
@@ -48,6 +52,13 @@
   padding: 0;
   margin: 0;
   filter: drop-shadow(0 2px 3px black);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 28%;
+  color: var(--primary-color);
 }
 .embla__buttons {
   display: flex;
@@ -60,17 +71,66 @@
   z-index: 999;
   top: 0;
   left: 0;
-  padding: 10px;
-}
-.embla__button {
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  width: 28%;
-  color: var(--primary-color);
+  padding: 15px;
 }
 .embla__button:disabled {
   opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .embla {
+    height: 20vh;
+    min-height: 100px;
+    --slide-spacing: 7px;
+    --slide-size: 60%;
+    --slide-height: 25vh;
+    padding: 0.5rem;
+  }
+  .embla__container {
+    flex-direction: row;
+    touch-action: pan-y;
+    margin-left: calc(var(--slide-spacing) * -1);
+    margin-top: 0;
+  }
+  .embla__buttons {
+    flex-direction: row;
+  }
+  .embla__button {
+    transform: rotate(-90deg);
+    width: 12%;
+  }
+  .embla__slide {
+    padding-top: 0;
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+    position: relative;
+  }
+  .embla__slide__logo {
+    top: 10px;
+    left: 30px;
+    height: 50%;
+    width: 70%;
+  }
+  .embla__slide__img {
+    object-position: -20px -50px;
+    width: calc(100% + var(--slide-spacing) * 3);
+  }
+}
+@media (max-width: 480px) {
+  .embla {
+    --slide-size: 100%;
+    --slide-spacing: 0px;
+  }
+  .embla__slide {
+    margin-right: 0px;
+  }
+  .embla__slide__logo {
+    width: 60%;
+    left: 21%;
+    top: 10%;
+  }
+  .embla__slide__img {
+    object-position: -20px -30px;
+    width: 106%;
+  }
 }
