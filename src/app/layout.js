@@ -21,7 +21,7 @@ const OPTIONS = {
   loop: true,
   align: 'center',
   breakpoints: {
-    '(max-width: 768px)': { axis: 'x' },
+    '(max-width: 880px)': { axis: 'x' },
   },
 };
 
