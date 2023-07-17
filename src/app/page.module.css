@@ -14,7 +14,7 @@
   margin: -35%;
 }
 .home__about {
-  margin-top: 60px;
+  margin-top: 30px;
   align-self: flex-end;
 }
 .home__about__title__container {
@@ -76,7 +76,7 @@
 .home p {
   width: 100%;
   white-space: pre-wrap;
-  font-size: clamp(1.25rem, 0.4167rem + 1.4815vw, 1.75rem);
+  font-size: clamp(1.25rem, 0.4167rem + 1.4815vw, 1.5rem);
   font-weight: 400;
   padding: 10px;
   text-align: justify;
