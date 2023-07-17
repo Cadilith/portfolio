@@ -59,7 +59,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 28%;
+  width: 30%;
   color: var(--primary-color);
 }
 .embla__buttons {
@@ -79,7 +79,7 @@
   opacity: 0.3;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1020px) {
   .embla {
     height: 20vh;
     min-height: 100px;

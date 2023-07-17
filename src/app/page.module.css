@@ -1,0 +1,142 @@
+.home {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.arrow {
+  aspect-ratio: 1/1;
+  height: 20vh;
+  overflow: hidden;
+  align-self: flex-start;
+}
+.arrow svg {
+  height: 35vh;
+  margin: -35%;
+}
+.home__about {
+  margin-top: 60px;
+  align-self: flex-end;
+}
+.home__about__title__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.home h2 {
+  font-size: clamp(12.5rem, 7.2917rem + 9.2593vw, 15.625rem);
+  font-weight: 500;
+  line-height: 80%;
+  height: 70%;
+}
+.home h3 {
+  font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
+  font-weight: 500;
+  height: 30%;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+.home__about__portrait {
+  position: relative;
+  width: 30%;
+  min-width: 200px;
+  max-width: 280px;
+}
+.home__about__portrait img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.home__portrait__square {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  --b: 1px; /* thickness of the border */
+  --c: var(--secondary-color); /* color of the border */
+  --w: 30px; /* width of border */
+
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg, var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background: conic-gradient(
+        from 90deg at top var(--b) left var(--b),
+        var(--_g)
+      )
+      0 0 / var(--_p),
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--_g)) 100% 0 /
+      var(--_p),
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--_g)) 0 100% /
+      var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--_g))
+      100% 100% / var(--_p);
+}
+.home p {
+  width: 100%;
+  white-space: pre-wrap;
+  font-size: clamp(1.25rem, 0.4167rem + 1.4815vw, 1.75rem);
+  font-weight: 400;
+  padding: 10px;
+  text-align: justify;
+}
+
+@media (max-width: 1020px) {
+  .home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow {
+    display: none;
+  }
+  .home__about {
+    margin-top: 0;
+    align-self: center;
+  }
+}
+@media (max-width: 630px) {
+  .home__about__title__container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .home__about__portrait {
+    width: 100%;
+    max-width: 300px;
+    height: 20vh;
+    order: 1;
+    align-self: center;
+  }
+  .home__about__portrait img {
+    object-position: 0px -80px;
+  }
+  .home__about__title {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .home h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: auto;
+    height: auto;
+  }
+  .home h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    height: 30%;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+  .home p {
+    width: 100%;
+    white-space: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0px;
+    text-align: justify;
+  }
+}

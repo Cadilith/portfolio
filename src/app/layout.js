@@ -1,14 +1,14 @@
 import './globals.css';
-import { Abel } from 'next/font/google';
+import { Barlow_Semi_Condensed } from 'next/font/google';
 import EmblaCarousel from '../components/Slider/EmblaCarousel';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import data from '/json/projets.json';
 
-const abel = Abel({
+const spaceMono = Barlow_Semi_Condensed({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['400', '500', '700'],
 });
 
 export const metadata = {
@@ -21,14 +21,14 @@ const OPTIONS = {
   loop: true,
   align: 'center',
   breakpoints: {
-    '(max-width: 880px)': { axis: 'x' },
+    '(max-width: 1020px)': { axis: 'x' },
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={abel.className}>
+      <body className={spaceMono.className}>
         <Header />
         <div className="container">
           {children}
