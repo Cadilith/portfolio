@@ -41,6 +41,10 @@ aside {
   border-left: 1px solid var(--secondary-color);
   position: relative;
 }
+textarea:focus,
+input:focus {
+  outline: none;
+}
 aside h2 {
   text-align: right;
   font-size: 67px;

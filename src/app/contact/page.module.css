@@ -9,8 +9,9 @@
   justify-content: space-around;
 }
 .contact__container textarea {
-  overflow: scroll;
+  overflow: auto;
   max-height: 20vh;
+  width: 100%;
 }
 .contact__intro__text {
   line-height: 1.7rem;
@@ -38,7 +39,7 @@
 .contact__form input,
 .contact__form textarea {
   border-radius: 0px;
-  border: #000000;
+  border: solid 1px #000000;
   padding: 10px;
   font-family: inherit;
   font-size: 16px;

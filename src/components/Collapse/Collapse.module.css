@@ -46,7 +46,7 @@
 }
 
 .collapse__title label span {
-  background: #fff;
+  background: var(--secondary-color);
   height: 2px;
   margin: 2px 0;
   transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
