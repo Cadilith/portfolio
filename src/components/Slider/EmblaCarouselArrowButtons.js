@@ -52,15 +52,15 @@ export const PrevButton = (props) => {
         viewBox="-2.4 -2.4 28.80 28.80"
         xmlns="http://www.w3.org/2000/svg"
         stroke="current"
-        stroke-width="0.40800000000000003"
+        strokeWidth="0.40800000000000003"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           stroke="#CCCCCC"
-          stroke-width="0.096"
+          strokeWidth="0.096"
         ></g>
         <g id="SVGRepo_iconCarrier">
           {' '}
@@ -88,16 +88,16 @@ export const NextButton = (props) => {
         viewBox="-2.4 -2.4 28.80 28.80"
         xmlns="http://www.w3.org/2000/svg"
         stroke="current"
-        stroke-width="0.40800000000000003"
+        strokeWidth="0.40800000000000003"
         transform="rotate(180)"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           stroke="#CCCCCC"
-          stroke-width="0.096"
+          strokeWidth="0.096"
         ></g>
         <g id="SVGRepo_iconCarrier">
           {' '}

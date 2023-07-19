@@ -81,6 +81,23 @@
   padding: 10px;
   text-align: justify;
 }
+.home__contact__container {
+  position: relative;
+  padding: 10px;
+  height: 70px;
+  width: 30%;
+  min-width: 100px;
+  margin-top: 15px;
+}
+.home__contact__container p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home__contact__container svg {
+  color: var(--secondary-color);
+  height: 100%;
+}
 
 @media (max-width: 1020px) {
   .home {
@@ -138,5 +155,8 @@
     font-weight: 400;
     padding: 0px;
     text-align: justify;
+  }
+  .home__contact__container p {
+    padding: 10px;
   }
 }
