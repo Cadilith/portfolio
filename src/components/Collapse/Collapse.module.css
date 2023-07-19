@@ -75,3 +75,8 @@
   transform-origin: bottom;
   transform: rotatez(0deg) translate(0);
 }
+@media (max-width: 630px) {
+  .collapse__container {
+    left: 12%;
+  }
+}

@@ -118,7 +118,7 @@
     width: calc(100% + var(--slide-spacing) * 3);
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 630px) {
   .embla {
     --slide-size: 100%;
     --slide-spacing: 0px;

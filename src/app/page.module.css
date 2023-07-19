@@ -84,7 +84,7 @@
 .home__contact__container {
   position: relative;
   padding: 10px;
-  height: 70px;
+  height: 90px;
   width: 30%;
   min-width: 100px;
   margin-top: 15px;
@@ -155,6 +155,9 @@
     font-weight: 400;
     padding: 0px;
     text-align: justify;
+  }
+  .home__contact__container {
+    width: 80%;
   }
   .home__contact__container p {
     padding: 10px;
