@@ -1,0 +1,55 @@
+.main h1 {
+  font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
+}
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+.contact__intro__text {
+  line-height: 1.7rem;
+  font-size: 22px;
+}
+.bold {
+  font-weight: 600;
+}
+.contact__intro__logos {
+  font-size: 40px;
+  padding-top: 10px;
+}
+.contact__intro__logos svg {
+  padding-right: 30px;
+}
+.contact__img {
+  width: 40%;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 5px;
+}
+.contact__form input,
+.contact__form textarea {
+  border-radius: 0px;
+  border: #000000;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.contact__form button {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px;
+  width: 50%;
+  align-self: center;
+  border-radius: 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+}

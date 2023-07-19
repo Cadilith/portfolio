@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.4",
     "embla-carousel-react": "^8.0.0-rc10",
     "next": "13.4.9",
     "react": "18.2.0",
