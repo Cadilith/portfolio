@@ -9,7 +9,6 @@
 }
 .embla__viewport {
   overflow: hidden;
-  /* a supri ?*/
   height: 100%;
 }
 .embla__container {
@@ -43,7 +42,21 @@
   max-height: 70px;
   width: 80%;
 }
+.embla__buttons {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  pointer-events: none;
+}
 .embla__button {
+  pointer-events: all;
   -webkit-appearance: none;
   background-color: transparent;
   touch-action: manipulation;
@@ -54,7 +67,6 @@
   padding: 0;
   margin: 0;
   filter: drop-shadow(0 2px 3px black);
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,19 +74,7 @@
   width: 30%;
   color: var(--primary-color);
 }
-.embla__buttons {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  padding: 15px;
-}
+
 .embla__button:disabled {
   opacity: 0.3;
 }

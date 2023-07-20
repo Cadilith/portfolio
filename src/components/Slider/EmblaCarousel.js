@@ -7,7 +7,7 @@ import {
   NextButton,
   usePrevNextButtons,
 } from './EmblaCarouselArrowButtons';
-// import imageByIndex from './imageByIndex';
+import Link from 'next/link';
 
 export default function EmblaCarousel(props) {
   const { data, options } = props;
@@ -25,23 +25,25 @@ export default function EmblaCarousel(props) {
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
           {data.map((d, index) => (
-            <div className={styles.embla__slide} key={d.id + index}>
-              <Image
-                className={styles.embla__slide__logo}
-                src={d.logo}
-                alt={d.title + ' logo'}
-                width={0}
-                height={0}
-              />
-              <Image
-                className={styles.embla__slide__img}
-                src={d.cover}
-                alt={d.title}
-                width={380}
-                height={480}
-                quality={90}
-              />
-            </div>
+            <Link key={d.id} href={`projects/${d.id}`}>
+              <div className={styles.embla__slide} key={d.id + index}>
+                <Image
+                  className={styles.embla__slide__logo}
+                  src={d.logo}
+                  alt={d.title + ' logo'}
+                  width={0}
+                  height={0}
+                />
+                <Image
+                  className={styles.embla__slide__img}
+                  src={d.cover}
+                  alt={d.title}
+                  width={380}
+                  height={480}
+                  quality={90}
+                />
+              </div>
+            </Link>
           ))}
         </div>
 
