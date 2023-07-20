@@ -5,11 +5,7 @@
     "subtitle": "Portfolio d'une architecte",
     "cover": "/images/bluel_cover.webp",
     "logo": "/images/bluel_logo.svg",
-    "pictures": [
-      "/images/bluel1.jpg",
-      "/images/bluel2.jpg",
-      "/images/bluel3.jpg"
-    ],
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
     "description1": "Pour second projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, marque l'initiation au javascript. En renfort sur cette mission, j'ai implémenté les fonctionnalités d'affichage dynamique de la gallerie à partir de données transmises par l'API. Je me suis aussi chargée d'intégrer les divers formulaires permettant la connexion de l'utilisateur et l'ajout de projets sur le portfolio. Enfin, j'ai ajouté les fonctionnalités de modification et suppression des travaux par Sophie Bluel. Grâce à cette mission j'ai pu avoir un aperçu de la collaboration avec un développeur backend, ainsi que des outils utilisés, comme swagger par exemple.",
     "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
     "repository": "https://github.com/Cadilith/P3-sophie-bluel"

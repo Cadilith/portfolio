@@ -29,7 +29,6 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   margin-top: 2rem;
 }
 .project__wrapper > * {
@@ -41,9 +40,27 @@
   max-height: 350px;
   object-fit: cover;
   object-position: top;
+  padding: 0.5rem;
 }
 .project__text {
   font-size: clamp(1rem, 0.7545rem + 0.4364vw, 1.3rem);
+  padding: 1rem;
   text-align: justify;
   white-space: pre-line;
+}
+.project__link a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.project__link svg {
+  margin-bottom: -5px;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.project__link {
+  margin-top: 1rem;
+}
+.project__link :hover {
+  transition: all ease-in-out 0.5s;
+  filter: drop-shadow(5px 5px 10px #6d00c7);
 }
