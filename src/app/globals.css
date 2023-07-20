@@ -29,6 +29,7 @@ body {
 }
 main {
   flex: auto;
+  width: 65%;
   padding: 3%;
 }
 strong {
