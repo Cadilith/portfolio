@@ -26,7 +26,7 @@ export default function EmblaCarousel(props) {
         <div className={styles.embla__container}>
           {data.map((d, index) => (
             <div className={styles.embla__slide} key={d.id + index}>
-              <Link key={d.id} href={`projects/${d.id}`}>
+              <Link key={d.id} href={`/projects/${d.id}`}>
                 <Image
                   className={styles.embla__slide__logo}
                   src={d.logo}
