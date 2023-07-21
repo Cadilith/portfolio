@@ -1,9 +1,9 @@
 .embla {
+  flex: auto;
   --slide-spacing: 15px;
   --slide-size: 55%;
   --slide-height: 70vh;
   padding: 1.6rem;
-  height: 76vh;
   min-height: 700px;
   position: relative;
 }

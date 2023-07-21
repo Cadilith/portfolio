@@ -36,6 +36,8 @@ strong {
   font-weight: 400;
 }
 aside {
+  display: flex;
+  flex-direction: column;
   width: 33%;
   max-width: 500px;
   padding: 15px;
