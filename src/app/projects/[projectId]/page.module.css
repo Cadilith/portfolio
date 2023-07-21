@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  padding-bottom: 0;
 }
 .main__title__wrapper {
   position: relative;
@@ -9,6 +10,8 @@
   overflow: hidden;
   width: 11%;
   min-width: 130px;
+  height: 88vh;
+  text-overflow: clip;
 }
 .project {
   width: 90%;
@@ -17,6 +20,7 @@
   font-size: 10rem;
   writing-mode: vertical-lr;
   translate: -3rem;
+  white-space: nowrap;
 }
 .main h2 {
   font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
@@ -63,6 +67,11 @@
 .project__link :hover {
   transition: all ease-in-out 0.5s;
   filter: drop-shadow(5px 5px 10px #6d00c7);
+}
+@media (max-width: 1586px) {
+  .main__title__wrapper {
+    height: 100%;
+  }
 }
 @media (max-width: 1020px) {
   .main h1 {

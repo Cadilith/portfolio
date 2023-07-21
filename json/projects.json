@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pro18WWNEwd",
+    "title": "Sophie Bluel",
+    "subtitle": "Portfolio d'une architecte",
+    "cover": "/images/bluel_cover.webp",
+    "logo": "/images/bluel_logo.svg",
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "description1": "Pour second projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, marque l'initiation au javascript. En renfort sur cette mission, j'ai implémenté les fonctionnalités d'affichage dynamique de la gallerie à partir de données transmises par l'API. Je me suis aussi chargée d'intégrer les divers formulaires permettant la connexion de l'utilisateur et l'ajout de projets sur le portfolio. Enfin, j'ai ajouté les fonctionnalités de modification et suppression des travaux par Sophie Bluel. Grâce à cette mission j'ai pu avoir un aperçu de la collaboration avec un développeur backend, ainsi que des outils utilisés, comme swagger par exemple.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "repository": "https://github.com/Cadilith/P3-sophie-bluel"
+  },
+  {
+    "id": "proWCLUIUwd",
+    "title": "MENU MAKER by Qwenta",
+    "subtitle": "Gestion de projet en agilité",
+    "cover": "/images/qwenta_cover.webp",
+    "logo": "/images/qwenta_logo.svg",
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "description1": "Ce projet d'étude m'a fourni l'occasion pour mettre en place une méthodologie agile en collaboration avec le Product Owner. Afin de préparer la réunion de présentation du projet, j'ai rédigé les spécifications techniques pour Menu Maker à partir d'un travail de veille qui pourra ensuite être partagé avec l'équipe de développement. Il a aussi été important de décider de la méthodologie la plus pertinente dans le cadre de ce projet ; ici je propose d'utiliser Kanban afin de fluidifier le processus de production. J'ai enfin présenté ce travail de planification au chef de projet, sous forme de slides consultables via le lien suivant.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "repository": "https://drive.google.com/drive/folders/1nInLBZz1YH4qyrDJCcRO2-gdnokZDkjE?usp=sharing"
+  },
+  {
+    "id": "pro31HWDHwd",
+    "title": "KASA",
+    "subtitle": "Application web de location immobilière",
+    "cover": "/images/kasa_cover.webp",
+    "logo": "/images/kasa_logo.svg",
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "description1": "Pour ce 6ème projet de la formation de développeur web chez Openclassrooms, j'ai réalisé le frontend de KASA, une application de location immobilière. J'ai utilisé React et Sass afin d'intégrer la maquette et d'implémenter les composants spécifiques au projet. Parmis ces derniers, les plus notables sont les composants collapsables et le slider, que j'ai pris soin d'animer de la manière la plus fluide possible. Le backend de ce projet n'étant pas encore réalisé, j'ai travaillé à partir de données JSON afin d'afficher dynamiquement les logements disponibles.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "repository": "https://github.com/Cadilith/P6-KASA"
+  },
+  {
+    "id": "pro1YQ4YRwd",
+    "title": "Booki",
+    "subtitle": "Landing page d'une agence de voyage",
+    "cover": "/images/booki_cover.webp",
+    "logo": "/images/booki_logo.svg",
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "description1": "Ce premier projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, m'a permis d'appréhender les principes de base du HTML et CSS. J'ai intégré le site de Booki : une agence de voyage, en réspectant la maquette figma fournie par le designer. M'assurer de livrer un site responsive s'est avéré être le principal challenge de cette mission, et cela m'a permis de découvrir de nouvelles méthodes CSS.",
+    "repository": "https://github.com/Cadilith/P2-Bookie"
+  },
+  {
+    "id": "proEMPZEFwd",
+    "title": "Mon vieux grimoire",
+    "subtitle": "Site de notation de livres",
+    "cover": "/images/grimoire_cover.webp",
+    "logo": "/images/grimoire_logo.svg",
+    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "description1": "Cette mission marque la fin de ma formation chez Openclassrooms. Pour ce dernier projet j'ai développé le backend d'un site de notation de livres sur Node.js, Express, avec une database MongoDB. En suivant le document de spécifications techniques de l'API, j'ai codé les endpoints et configuré la base de donnée. Les principaux challenges se situaient dans la sécurisation de la base de donnée et l'optimisation des fichiers images téléchargés ; j'ai pu les surmonter simplement grâce à Multer, Sharp, Helmet et Sanitize, en plus des fonctions de logique métier que j'ai codé. ",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "repository": "https://github.com/Cadilith/P7_mon_vieux_grimoire"
+  }
+]
