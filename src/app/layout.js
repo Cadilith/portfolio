@@ -6,9 +6,10 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import data from '/json/projets.json';
 
-const spaceMono = Barlow_Semi_Condensed({
+const barlowSemi = Barlow_Semi_Condensed({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
+  preload: false,
 });
 
 export const metadata = {
@@ -28,7 +29,7 @@ const OPTIONS = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={spaceMono.className}>
+      <body className={barlowSemi.className}>
         <Header />
         <div className="container">
           {children}
