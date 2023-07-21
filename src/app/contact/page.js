@@ -57,10 +57,15 @@ export default function Contact() {
         </div>
         <form className={styles.contact__form} onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name"></input>
+          <input type="text" id="name" name="name" autoComplete="name"></input>
           <ValidationError prefix="name" field="name" errors={state.errors} />
           <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email"></input>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autoComplete="email"
+          ></input>
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <label htmlFor="message">Message</label>
           <textarea id="message" rows={12} spellCheck="true" name="message" />
