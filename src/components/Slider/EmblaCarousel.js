@@ -25,8 +25,8 @@ export default function EmblaCarousel(props) {
       <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
           {data.map((d, index) => (
-            <Link key={d.id} href={`projects/${d.id}`}>
-              <div className={styles.embla__slide} key={d.id + index}>
+            <div className={styles.embla__slide} key={d.id + index}>
+              <Link key={d.id} href={`projects/${d.id}`}>
                 <Image
                   className={styles.embla__slide__logo}
                   src={d.logo}
@@ -42,8 +42,8 @@ export default function EmblaCarousel(props) {
                   height={480}
                   quality={90}
                 />
-              </div>
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
 
