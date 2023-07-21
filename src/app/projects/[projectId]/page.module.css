@@ -8,7 +8,7 @@
   left: -60px;
   overflow: hidden;
   width: 11%;
-  min-width: 120px;
+  min-width: 130px;
 }
 .project {
   width: 90%;
@@ -63,4 +63,34 @@
 .project__link :hover {
   transition: all ease-in-out 0.5s;
   filter: drop-shadow(5px 5px 10px #6d00c7);
+}
+@media (max-width: 1020px) {
+  .main h1 {
+    font-size: 8rem;
+    translate: -0.5rem;
+  }
+}
+@media (max-width: 630px) {
+  .main__title__wrapper {
+    display: none;
+  }
+  .main h2 {
+    font-size: 3rem;
+  }
+  .main h3 {
+    font-size: 1.3rem;
+  }
+  .project__wrapper {
+    margin-top: 0.5rem;
+  }
+  .project {
+    width: 100%;
+  }
+  .project__img img {
+    max-height: 150px;
+    padding: 0.3rem;
+  }
+  .project__link a {
+    font-size: 1.3rem;
+  }
 }
