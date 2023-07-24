@@ -6,6 +6,7 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import data from '/json/projets.json';
 
+//Font import
 const barlowSemi = Barlow_Semi_Condensed({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
@@ -17,6 +18,7 @@ export const metadata = {
   description: "I'm a junior web developer always yearning to learn more",
 };
 
+//Slider options
 const OPTIONS = {
   axis: 'y',
   loop: true,
