@@ -23,7 +23,7 @@ export default function Projects({ params }) {
               height={350}
               width={800}
               quality={100}
-              alt="project preview"
+              alt="project preview 1"
             />
           </section>
           <section className={styles.project__img}>
@@ -32,7 +32,7 @@ export default function Projects({ params }) {
               height={350}
               width={800}
               quality={100}
-              alt="project preview"
+              alt="project preview 2"
             />
           </section>
           <section className={styles.project__text}>

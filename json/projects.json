@@ -16,7 +16,7 @@
     "subtitle": "Agile Project Management",
     "cover": "/images/qwenta_cover.webp",
     "logo": "/images/qwenta_logo.svg",
-    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "pictures": ["/images/qwenta1.webp", "/images/qwenta2.webp"],
     "description1": "During this study project, I had the unique opportunity to implement agile methodologies in conjunction with the Product Owner for Menu Maker, a dynamic menu creation tool developed by Qwenta. To ensure a successful project outcome, I meticulously researched and crafted technical specifications for Menu Maker, facilitating seamless communication and collaboration with the development team.",
     "description2": "After thoughtful consideration, I proposed utilizing the Kanban methodology to enhance the production process, promoting continuous improvement and efficient task management. This choice would allow us to respond quickly to changing requirements and maintain a steady workflow.\nI then presented our comprehensive planning to the project manager, showcasing our agile approach through detailed slides, which you can access via the following link.",
     "repository": "https://drive.google.com/drive/folders/1nInLBZz1YH4qyrDJCcRO2-gdnokZDkjE?usp=sharing"
@@ -27,7 +27,7 @@
     "subtitle": "Real Estate Rental Web Application",
     "cover": "/images/kasa_cover.webp",
     "logo": "/images/kasa_logo.svg",
-    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "pictures": ["/images/kasa1.webp", "/images/kasa2.webp"],
     "description1": "As part of the 6th project in my web developer training at Openclassrooms, I had the exciting opportunity to work on the frontend of KASA, a real estate rental web application. Leveraging the power of React and Sass, I meticulously integrated the provided design mockup and implemented project-specific components.\nAmong these components, the collapsible elements and the slider were particularly noteworthy, and I ensured smooth animations for an enhanced user experience.",
     "description2": "While the backend of the project was yet to be developed, I temporarily utilized JSON data to dynamically display the available properties.\nThroughout this project, I honed my frontend development skills and gained valuable experience in crafting engaging user interfaces.\nFor Kasa, I utilized Sass for maintaining organized styles, React served as the frontend framework, ensuring a consistent user interface.",
     "repository": "https://github.com/Cadilith/P6-KASA"
@@ -38,7 +38,7 @@
     "subtitle": "Travel Agency Landing Page",
     "cover": "/images/booki_cover.webp",
     "logo": "/images/booki_logo.svg",
-    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "pictures": ["/images/booki1.webp", "/images/booki2.webp"],
     "description1": "As part of my web developer training at Openclassrooms, I embarked on my first project - creating the landing page for Booki, a travel agency.\nThis project marked the beginning of my web development journey, laying the groundwork for my future endeavors in crafting engaging and visually captivating web pages.",
     "description2": "Ensuring a seamless user experience across various devices became the primary challenge of this mission, pushing me to explore and implement new CSS techniques to achieve a fully responsive website.\nWorking closely with the provided Figma design, I integrated the site using HTML and CSS, delving into the essential principles of web development.",
     "repository": "https://github.com/Cadilith/P2-Bookie"
@@ -49,7 +49,7 @@
     "subtitle": "Book Rating Website",
     "cover": "/images/grimoire_cover.webp",
     "logo": "/images/grimoire_logo.svg",
-    "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
+    "pictures": ["/images/grimoire1.webp", "/images/grimoire2.webp"],
     "description1": "Welcome to Mon Vieux Grimoire - a book rating platform that marks the culmination of my training at Openclassrooms. In this final project, I focused on backend development, using Node.js, Express, and MongoDB to lay a robust foundation for interactions.\nGuided by the API's technical specifications, I coded the endpoints and configured the database to ensure smooth functionality.",
     "description2": "The primary challenges revolved around securing the database and optimizing uploaded image files. Thankfully, I successfully overcame these hurdles by leveraging powerful tools like Multer, Sharp, Helmet, and Sanitize, in addition to the server-side logic functions I implemented.",
     "repository": "https://github.com/Cadilith/P7_mon_vieux_grimoire"
