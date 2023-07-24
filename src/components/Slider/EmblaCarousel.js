@@ -33,7 +33,7 @@ export default function EmblaCarousel(props) {
                   alt={d.title + ' logo'}
                   width={0}
                   height={0}
-                  loading=""
+                  priority
                 />
                 <Image
                   className={styles.embla__slide__img}
@@ -42,6 +42,7 @@ export default function EmblaCarousel(props) {
                   width={380}
                   height={480}
                   quality={90}
+                  priority
                 />
               </Link>
             </div>
