@@ -33,6 +33,7 @@ export default function EmblaCarousel(props) {
                   alt={d.title + ' logo'}
                   width={0}
                   height={0}
+                  loading=""
                 />
                 <Image
                   className={styles.embla__slide__img}
