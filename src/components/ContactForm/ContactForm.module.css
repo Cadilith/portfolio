@@ -1,0 +1,41 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 5px;
+}
+.contact__form input,
+.contact__form textarea {
+  border-radius: 0px;
+  border: solid 1px #000000;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.contact__form button {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px;
+  width: 50%;
+  align-self: center;
+  border-radius: 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .contact__form {
+    width: 80%;
+  }
+}
+@media (max-width: 630px) {
+  .contact__form {
+    width: 100%;
+  }
+}

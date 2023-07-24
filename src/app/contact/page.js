@@ -1,10 +1,7 @@
-'use client';
 import styles from './page.module.css';
-import { useForm, ValidationError } from '@formspree/react';
+import ContactForm from '@/components/ContactForm/ContactForm';
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm('xwkdplaa');
-
   return (
     <main className={styles.main}>
       <h1>Get in touch</h1>
@@ -55,29 +52,7 @@ export default function Contact() {
             </a>
           </p>
         </div>
-        <form className={styles.contact__form} onSubmit={handleSubmit}>
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" autoComplete="name"></input>
-          <ValidationError prefix="name" field="name" errors={state.errors} />
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            autoComplete="email"
-          ></input>
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
-          <label htmlFor="message">Message</label>
-          <textarea id="message" rows={12} spellCheck="true" name="message" />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
-          <button type="submit" disabled={state.submitting}>
-            {state.succeeded ? 'Thank you !' : 'SEND'}
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </main>
   );
