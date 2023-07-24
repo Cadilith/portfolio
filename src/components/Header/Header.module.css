@@ -28,6 +28,7 @@
   flex-direction: column;
   align-self: stretch;
   border-left: 1px solid var(--secondary-color);
+  font-size: 1.3rem;
 }
 .italic {
   font-style: italic;
