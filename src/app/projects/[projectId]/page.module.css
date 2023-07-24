@@ -6,11 +6,11 @@
 }
 .main__title__wrapper {
   position: relative;
-  left: -60px;
+  left: -61px;
   overflow: hidden;
   width: 11%;
   min-width: 130px;
-  height: 85vh;
+  height: 86vh;
   text-overflow: clip;
 }
 .project {
@@ -49,7 +49,6 @@
 .project__text {
   font-size: clamp(1rem, 0.7545rem + 0.4364vw, 1.3rem);
   padding: 1rem;
-  text-align: justify;
   white-space: pre-line;
 }
 .project__link a {
@@ -63,10 +62,6 @@
 }
 .project__link {
   margin-top: 1rem;
-}
-.project__link :hover {
-  transition: all ease-in-out 0.5s;
-  filter: drop-shadow(5px 5px 10px #6d00c7);
 }
 @media (max-width: 1586px) {
   .main__title__wrapper {
@@ -84,7 +79,7 @@
     display: none;
   }
   .main h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .main h3 {
     font-size: 1.3rem;
