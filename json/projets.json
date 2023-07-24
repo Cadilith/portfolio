@@ -16,9 +16,9 @@
     "subtitle": "Gestion de projet en agilité",
     "cover": "/images/qwenta_cover.webp",
     "logo": "/images/qwenta_logo.svg",
-    "pictures": [],
+    "pictures": ["/images/qwenta1.webp", "/images/qwenta2.webp"],
     "description1": "Ce projet d'étude m'a fourni l'occasion pour mettre en place une méthodologie agile en collaboration avec le Product Owner. Afin de préparer la réunion de présentation du projet, j'ai rédigé les spécifications techniques pour Menu Maker à partir d'un travail de veille qui pourra ensuite être partagé avec l'équipe de développement. Il a aussi été important de décider de la méthodologie la plus pertinente dans le cadre de ce projet ; ici je propose d'utiliser Kanban afin de fluidifier le processus de production. J'ai enfin présenté ce travail de planification au chef de projet, sous forme de slides consultables via le lien suivant.",
-    "repository": "https://drive.google.com/drive/folders/1nInLBZz1YH4qyrDJCcRO2-gdnokZDkjE?usp=sharing"
+    "repository": "https://github.com/Cadilith/P4_Menu_Maker"
   },
   {
     "id": "pro31HWDHwd",
@@ -26,7 +26,7 @@
     "subtitle": "Application web de location immobilière",
     "cover": "/images/kasa_cover.webp",
     "logo": "/images/kasa_logo.svg",
-    "pictures": [],
+    "pictures": ["/images/kasa1.webp", "/images/kasa2.webp"],
     "description1": "Pour ce 6ème projet de la formation de développeur web chez Openclassrooms, j'ai réalisé le frontend de KASA, une application de location immobilière. J'ai utilisé React et Sass afin d'intégrer la maquette et d'implémenter les composants spécifiques au projet. Parmis ces derniers, les plus notables sont les composants collapsables et le slider, que j'ai pris soin d'animer de la manière la plus fluide possible. Le backend de ce projet n'étant pas encore réalisé, j'ai travaillé à partir de données JSON afin d'afficher dynamiquement les logements disponibles.",
     "repository": "https://github.com/Cadilith/P6-KASA"
   },
@@ -36,7 +36,7 @@
     "subtitle": "Landing page d'une agence de voyage",
     "cover": "/images/booki_cover.webp",
     "logo": "/images/booki_logo.svg",
-    "pictures": [],
+    "pictures": ["/images/booki1.webp", "/images/booki2.webp"],
     "description1": "Ce premier projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, m'a permis d'appréhender les principes de base du HTML et CSS. J'ai intégré le site de Booki : une agence de voyage, en réspectant la maquette figma fournie par le designer. M'assurer de livrer un site responsive s'est avéré être le principal challenge de cette mission, et cela m'a permis de découvrir de nouvelles méthodes CSS.",
     "repository": "https://github.com/Cadilith/P2-Bookie"
   },
@@ -46,7 +46,7 @@
     "subtitle": "Site de notation de livres",
     "cover": "/images/grimoire_cover.webp",
     "logo": "/images/grimoire_logo.svg",
-    "pictures": [],
+    "pictures": ["/images/grimoire1.webp", "/images/grimoire2.webp"],
     "description1": "Cette mission marque la fin de ma formation chez Openclassrooms. Pour ce dernier projet j'ai développé le backend d'un site de notation de livres sur Node.js, Express, avec une database MongoDB. En suivant le document de spécifications techniques de l'API, j'ai codé les endpoints et configuré la base de donnée. Les principaux challenges se situaient dans la sécurisation de la base de donnée et l'optimisation des fichiers images téléchargés ; j'ai pu les surmonter simplement grâce à Multer, Sharp, Helmet et Sanitize, en plus des fonctions de logique métier que j'ai codé. ",
     "repository": "https://github.com/Cadilith/P7_mon_vieux_grimoire"
   }
