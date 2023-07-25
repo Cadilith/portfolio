@@ -1,0 +1,81 @@
+.main h1 {
+  font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
+}
+.about__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.about__intro {
+  width: 50%;
+}
+.about__stack {
+  width: 30%;
+}
+.about__stack h2 {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid var(--secondary-color);
+  font-size: 1.8rem;
+}
+.about__stack__logos {
+  padding-left: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+.about__stack p {
+  display: block;
+  max-width: 200px;
+  flex: auto;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: 2px solid;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%);
+  padding: 8px 15px 8px 15px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.about__stack p:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  box-sizing: border-box;
+  clip-path: polygon(90% 0, 100% 0, 100% 40%, 75% 100%, 0 100%, 0 25%);
+  transition: clip-path 0.5s;
+}
+.about__stack a {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-align: right;
+}
+.about__stack a svg {
+  width: 40px;
+  height: auto;
+  margin-left: 1rem;
+}
+@media (max-width: 1500px) {
+  .about__stack {
+    width: 40%;
+  }
+}
+@media (max-width: 1200px) {
+  .about__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about__intro {
+    width: 100%;
+  }
+  .about__stack {
+    width: 100%;
+  }
+}
