@@ -11,6 +11,7 @@
 }
 .about__intro {
   width: 50%;
+  white-space: pre-wrap;
 }
 .about__stack {
   width: 30%;
