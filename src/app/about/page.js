@@ -1,16 +1,16 @@
 import styles from './page.module.css';
-import about from '../../../json/about.json';
+import about from '../../../json/apropos.json';
 
 export default function About() {
   return (
     <main className={styles.main}>
-      <h1>About me</h1>
+      <h1>À propos</h1>
       <div className={styles.about__container}>
         <div className={styles.about__intro}>
           <p>{about.intro}</p>
         </div>
         <div className={styles.about__stack}>
-          <h2>My skills</h2>
+          <h2>MES COMPÉTENCES</h2>
           <div className={styles.about__stack__logos}>
             <p>HTML</p>
             <p>CSS</p>
@@ -31,7 +31,7 @@ export default function About() {
             target="_blank"
             aria-label="Download full resume"
           >
-            See full resume
+            Téléchargez mon CV
             <svg
               width="800px"
               height="800px"

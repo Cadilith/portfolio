@@ -7,7 +7,7 @@ export default function ContactForm() {
 
   return (
     <form className={styles.contact__form} onSubmit={handleSubmit}>
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Nom</label>
       <input
         type="text"
         id="name"
@@ -35,7 +35,7 @@ export default function ContactForm() {
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button type="submit" disabled={state.submitting}>
-        {state.succeeded ? 'Thank you !' : 'SEND'}
+        {state.succeeded ? 'Merci !' : 'ENVOYER'}
       </button>
     </form>
   );

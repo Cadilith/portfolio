@@ -14,7 +14,8 @@
 }
 .home__about {
   margin-top: 30px;
-  align-self: flex-end;
+  align-self: center;
+  max-width: 1000px;
 }
 .home__about__title__container {
   display: flex;
@@ -25,21 +26,18 @@
   position: relative;
 }
 .home h2 {
-  font-size: clamp(12.5rem, 7.2917rem + 9.2593vw, 15.625rem);
+  font-size: clamp(4.375rem, -0.7047rem + 7.9681vw, 9.375rem);
   font-weight: 500;
-  line-height: 80%;
-  height: 70%;
 }
 .home h3 {
-  font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
+  font-size: clamp(2.5rem, 0.5951rem + 2.988vw, 4.375rem);
   font-weight: 500;
-  height: 30%;
   white-space: nowrap;
-  padding-left: 10px;
 }
 .home__about__portrait {
   position: relative;
   width: 30%;
+  min-height: 250px;
   min-width: 200px;
   max-width: 280px;
 }
@@ -86,6 +84,7 @@
   height: 90px;
   width: 30%;
   min-width: 100px;
+  max-width: 400px;
   margin-top: 15px;
 }
 .home__contact__container p {
@@ -105,6 +104,15 @@
     align-items: center;
     justify-content: center;
   }
+  .home__about__title__container {
+    flex-direction: column-reverse;
+  }
+  .home__about__portrait {
+    width: 100%;
+    max-width: 330px;
+    align-self: center;
+    height: 20vh;
+  }
   .arrow {
     display: none;
   }
@@ -113,50 +121,34 @@
     align-self: center;
   }
 }
-@media (max-width: 630px) {
+@media (max-width: 680px) {
   .home__about__title__container {
-    flex-direction: column;
     gap: 10px;
   }
-  .home__about__portrait {
-    width: 100%;
-    max-width: 300px;
-    height: 20vh;
-    order: 1;
-    align-self: center;
+  .home__about {
+    text-align: center;
   }
   .home__about__portrait img {
     object-position: 0px -80px;
   }
-  .home__about__title {
-    order: 2;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-  }
+
   .home h2 {
     font-size: 4rem;
     font-weight: 500;
-    line-height: auto;
-    height: auto;
   }
   .home h3 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 500;
-    height: 30%;
-    white-space: nowrap;
-    padding-left: 0px;
   }
   .home p {
     width: 100%;
     white-space: normal;
     font-size: 1.2rem;
     font-weight: 400;
-    padding: 0px;
-    text-align: justify;
   }
   .home__contact__container {
     width: 80%;
+    max-width: none;
   }
   .home__contact__container p {
     padding: 10px;

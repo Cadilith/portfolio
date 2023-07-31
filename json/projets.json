@@ -6,18 +6,19 @@
     "cover": "/images/bluel_cover.webp",
     "logo": "/images/bluel_logo.svg",
     "pictures": ["/images/bluel1.webp", "/images/bluel2.webp"],
-    "description1": "Pour second projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, marque l'initiation au javascript. En renfort sur cette mission, j'ai implémenté les fonctionnalités d'affichage dynamique de la gallerie à partir de données transmises par l'API. Je me suis aussi chargée d'intégrer les divers formulaires permettant la connexion de l'utilisateur et l'ajout de projets sur le portfolio. Enfin, j'ai ajouté les fonctionnalités de modification et suppression des travaux par Sophie Bluel. Grâce à cette mission j'ai pu avoir un aperçu de la collaboration avec un développeur backend, ainsi que des outils utilisés, comme swagger par exemple.",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
+    "description1": "Dans le cadre de ma formation de développeur web chez Openclassrooms, j'ai réussi ce deuxième projet qui a marqué mon initiation au JavaScript. Mon objectif principal était de mettre en œuvre les fonctionnalités de galerie dynamique en récupérant des données via une API. \nJ'ai également pris en charge l'intégration de divers formulaires permettant aux utilisateurs de s'inscrire, de se connecter et d'ajouter de nouveaux projets à leur portfolio.\nPour améliorer l'utilisabilité de la plateforme, j'ai développé des fonctionnalités permettant aux utilisateurs connectés d'éditer et de supprimer facilement leurs travaux.",
+    "description2": "Travaillant sans frameworks, ce projet m'a permis d'affûter mes compétences en JavaScript et d'acquérir une précieuse expérience dans la gestion de données provenant de sources externes. Cela m'a permis de mieux comprendre la collaboration avec les développeurs backend et la relation cruciale entre les aspects backend et frontend du développement web.",
     "repository": "https://github.com/Cadilith/P3-sophie-bluel"
   },
   {
     "id": "proWCLUIUwd",
-    "title": "MENU MAKER by Qwenta",
+    "title": "MENU MAKER",
     "subtitle": "Gestion de projet en agilité",
     "cover": "/images/qwenta_cover.webp",
     "logo": "/images/qwenta_logo.svg",
     "pictures": ["/images/qwenta1.webp", "/images/qwenta2.webp"],
-    "description1": "Ce projet d'étude m'a fourni l'occasion pour mettre en place une méthodologie agile en collaboration avec le Product Owner. Afin de préparer la réunion de présentation du projet, j'ai rédigé les spécifications techniques pour Menu Maker à partir d'un travail de veille qui pourra ensuite être partagé avec l'équipe de développement. Il a aussi été important de décider de la méthodologie la plus pertinente dans le cadre de ce projet ; ici je propose d'utiliser Kanban afin de fluidifier le processus de production. J'ai enfin présenté ce travail de planification au chef de projet, sous forme de slides consultables via le lien suivant.",
+    "description1": "Au cours de ce projet d'étude, j'ai eu l'occasion unique de mettre en œuvre des méthodologies agiles en collaboration avec le Product Owner pour Menu Maker, un outil dynamique de création de menus développé par Qwenta.\nAfin de garantir le succès du projet, j'ai minutieusement recherché et rédigé les spécifications techniques pour Menu Maker, facilitant la communication et la collaboration avec l'équipe de développement.",
+    "description2": "Après mûre réflexion, j'ai proposé d'utiliser la méthodologie Kanban pour améliorer le processus de production, favorisant l'amélioration continue et la gestion efficace des tâches. Ce choix nous permettrait de répondre rapidement aux changements et de maintenir un flux de travail régulier.\nJ'ai ensuite présenté notre planification complète au chef de projet, mettant en valeur notre approche agile à l'aide de diapositives détaillées, que vous pouvez consulter via le lien suivant.",
     "repository": "https://github.com/Cadilith/P4_Menu_Maker"
   },
   {
@@ -27,7 +28,8 @@
     "cover": "/images/kasa_cover.webp",
     "logo": "/images/kasa_logo.svg",
     "pictures": ["/images/kasa1.webp", "/images/kasa2.webp"],
-    "description1": "Pour ce 6ème projet de la formation de développeur web chez Openclassrooms, j'ai réalisé le frontend de KASA, une application de location immobilière. J'ai utilisé React et Sass afin d'intégrer la maquette et d'implémenter les composants spécifiques au projet. Parmis ces derniers, les plus notables sont les composants collapsables et le slider, que j'ai pris soin d'animer de la manière la plus fluide possible. Le backend de ce projet n'étant pas encore réalisé, j'ai travaillé à partir de données JSON afin d'afficher dynamiquement les logements disponibles.",
+    "description1": "Dans le cadre du 6ème projet de ma formation de développeur web chez Openclassrooms, j'ai eu l'occasion de travailler sur la partie frontend de KASA, une application web de location immobilière.\nEn exploitant la puissance de React et Sass, j'ai intégré la maquette de conception fournie et mis en œuvre les composants spécifiques au projet. Parmi ces composants, les plus notables étaient les éléments collapsables et le slider, pour lesquels j'ai veillé à créer des animations fluides pour offrir une expérience utilisateur améliorée.",
+    "description2": "Puisque la partie backend du projet n'avait pas encore été développée, j'ai temporairement utilisé un fichier JSON pour afficher dynamiquement les propriétés disponibles.\nTout au long de ce projet, j'ai perfectionné mes compétences en développement frontend et acquis une précieuse expérience dans la création d'interfaces utilisateur attrayantes. Pour KASA, j'ai utilisé Sass pour maintenir des styles organisés, tandis que React a servi de framework frontend, garantissant une interface utilisateur cohérente.",
     "repository": "https://github.com/Cadilith/P6-KASA"
   },
   {
@@ -37,7 +39,8 @@
     "cover": "/images/booki_cover.webp",
     "logo": "/images/booki_logo.svg",
     "pictures": ["/images/booki1.webp", "/images/booki2.webp"],
-    "description1": "Ce premier projet, effectué dans le cadre de ma formation de développeur web chez Openclassrooms, m'a permis d'appréhender les principes de base du HTML et CSS. J'ai intégré le site de Booki : une agence de voyage, en réspectant la maquette figma fournie par le designer. M'assurer de livrer un site responsive s'est avéré être le principal challenge de cette mission, et cela m'a permis de découvrir de nouvelles méthodes CSS.",
+    "description1": "Dans le cadre de ma formation de développeur web chez Openclassrooms, j'ai entrepris mon premier projet - créer la page d'accueil de Booki, une agence de voyage. Ce projet a marqué le début de mon parcours en développement web, posant les bases de mes futures réalisations pour concevoir des pages web attrayantes et captivantes visuellement.",
+    "description2": "Assurer une expérience utilisateur fluide sur différents appareils est devenu le défi principal de cette mission, me poussant à explorer et mettre en œuvre de nouvelles techniques CSS pour obtenir un site entièrement responsive.\nEn travaillant avec le design Figma fourni, j'ai intégré le site en utilisant HTML et CSS, plongeant ainsi dans les principes essentiels du développement web.",
     "repository": "https://github.com/Cadilith/P2-Bookie"
   },
   {
@@ -47,7 +50,8 @@
     "cover": "/images/grimoire_cover.webp",
     "logo": "/images/grimoire_logo.svg",
     "pictures": ["/images/grimoire1.webp", "/images/grimoire2.webp"],
-    "description1": "Cette mission marque la fin de ma formation chez Openclassrooms. Pour ce dernier projet j'ai développé le backend d'un site de notation de livres sur Node.js, Express, avec une database MongoDB. En suivant le document de spécifications techniques de l'API, j'ai codé les endpoints et configuré la base de donnée. Les principaux challenges se situaient dans la sécurisation de la base de donnée et l'optimisation des fichiers images téléchargés ; j'ai pu les surmonter simplement grâce à Multer, Sharp, Helmet et Sanitize, en plus des fonctions de logique métier que j'ai codé. ",
+    "description1": "Cette mission marque la fin de ma formation chez Openclassrooms.  Dans ce projet final, j'ai concentré mon travail sur le développement backend en utilisant Node.js, Express et MongoDB.\nGuidée par les spécifications techniques de l'API, j'ai codé les endpoints et configuré la base de données pour assurer un fonctionnement fluide.",
+    "description2": "Les principaux défis étaient liés à la sécurisation de la base de données et à l'optimisation des fichiers images téléchargés. Heureusement, j'ai réussi à surmonter ces obstacles en tirant parti d'outils puissants tels que Multer, Sharp, Helmet et Sanitize ; en plus des fonctions de logique côté serveur que j'ai implémentées.",
     "repository": "https://github.com/Cadilith/P7_mon_vieux_grimoire"
   }
 ]

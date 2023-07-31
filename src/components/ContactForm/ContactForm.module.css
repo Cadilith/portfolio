@@ -29,9 +29,11 @@
   cursor: pointer;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1440px) {
   .contact__form {
     width: 80%;
+    align-self: center;
+    max-width: 500px;
   }
 }
 @media (max-width: 630px) {

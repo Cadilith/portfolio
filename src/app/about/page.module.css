@@ -67,6 +67,9 @@
   .about__stack {
     width: 40%;
   }
+  .about__stack__logos {
+    padding-left: 0;
+  }
 }
 @media (max-width: 1200px) {
   .about__container {

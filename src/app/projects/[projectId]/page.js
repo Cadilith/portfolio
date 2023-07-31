@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import datas from '/json/projects.json';
+import datas from '/json/projets.json';
 
 export default function Projects({ params }) {
   const data = datas.filter((d) => d.id === params.projectId);

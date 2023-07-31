@@ -15,10 +15,10 @@ export default function Header() {
         </div>
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">Accueil</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">À propos</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>

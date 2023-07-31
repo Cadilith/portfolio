@@ -4,18 +4,19 @@ import ContactForm from '@/components/ContactForm/ContactForm';
 export default function Contact() {
   return (
     <main className={styles.main}>
-      <h1>Get in touch</h1>
+      <h1>Contactez moi</h1>
       <div className={styles.contact__container}>
         <div className={styles.contact__intro}>
           <p className={styles.contact__intro__text}>
-            You can contact me on these platforms.
+            Vous pouvez me retrouver aussi sur ces plateformes.
           </p>
-          <p className={styles.contact__intro__text}>
+          {/* <p className={styles.contact__intro__text}>
             <strong>
-              I'm based in <span className={styles.bold}>Aurillac, France</span>
+              Je suis basée à{' '}
+              <span className={styles.bold}>Aurillac, France</span>
             </strong>
             .
-          </p>
+          </p> */}
           <p className={styles.contact__intro__logos}>
             <a
               href="https://www.linkedin.com/in/tiffanieorsoni/"
