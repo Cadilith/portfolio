@@ -91,6 +91,7 @@
     --slide-size: 60%;
     --slide-height: 20vh;
     padding: 0.5rem;
+    margin-top: 60px;
   }
   .embla__container {
     flex-direction: row;
@@ -126,6 +127,7 @@
   .embla {
     --slide-size: 100%;
     --slide-spacing: 0px;
+    margin-top: 50px;
   }
   .embla__slide {
     margin-right: 0px;

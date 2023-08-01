@@ -52,7 +52,7 @@ export default function About() {
                 <g
                   id="Dribbble-Light-Preview"
                   transform="translate(-140.000000, -1399.000000)"
-                  fill="#fff"
+                  fill="currentColor"
                 >
                   <g id="icons" transform="translate(56.000000, 160.000000)">
                     <path

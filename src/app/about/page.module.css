@@ -37,7 +37,14 @@
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border: 2px solid;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%);
+  clip-path: polygon(
+    -1% -1%,
+    102% -1%,
+    102% 102%,
+    102% 102%,
+    -1% 102%,
+    -1% 102%
+  );
   padding: 8px 15px 8px 15px;
   font-weight: 500;
   transition: all 0.5s ease-in-out;
@@ -62,6 +69,7 @@
   width: 40px;
   height: auto;
   margin-left: 1rem;
+  color: var(--secondary-color);
 }
 @media (max-width: 1500px) {
   .about__stack {

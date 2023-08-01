@@ -45,6 +45,7 @@ aside {
   padding: 15px;
   border-left: 1px solid var(--secondary-color);
   position: relative;
+  overflow-y: hidden;
 }
 textarea:focus,
 input:focus {
@@ -76,6 +77,11 @@ a {
   flex-direction: row;
   flex: auto;
 }
+@media (max-width: 1350px) {
+  aside h2 {
+    font-size: clamp(5rem, 0.7117rem + 6.7267vw, 6.4rem);
+  }
+}
 
 @media (max-width: 1020px) {
   .container {
@@ -90,8 +96,9 @@ a {
     padding: 10px;
   }
   aside h2 {
-    font-size: 40px;
-    margin: 0;
+    font-size: 7rem;
+    margin-top: -0.7rem;
+    margin-right: -10px;
   }
   main {
     order: 2;
@@ -104,5 +111,17 @@ a {
   }
   aside {
     padding: 0.5rem 1.2rem;
+  }
+}
+@media (max-width: 630px) {
+  .aside__title__container {
+    left: 0;
+    right: auto;
+    height: 100px;
+    overflow: hidden;
+  }
+  aside h2 {
+    margin-right: 0;
+    font-size: clamp(5rem, 2.5rem + 11.4286vw, 7rem);
   }
 }
