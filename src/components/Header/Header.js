@@ -1,7 +1,12 @@
+'use client';
 import styles from './Header.module.css';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+  // get current route
+  const currentRoute = usePathname();
+
   return (
     <header className={styles.header}>
       <h1 className="logo">
@@ -14,13 +19,27 @@ export default function Header() {
           <div className={styles.arrow}></div>
         </div>
         <ul>
-          <li>
+          <li
+            className={
+              currentRoute === '/' ? styles.active_link : 'nonactive-link'
+            }
+          >
             <Link href="/">Accueil</Link>
           </li>
-          <li>
+          <li
+            className={
+              currentRoute === '/about' ? styles.active_link : 'nonactive-link'
+            }
+          >
             <Link href="/about">À propos</Link>
           </li>
-          <li>
+          <li
+            className={
+              currentRoute === '/contact'
+                ? styles.active_link
+                : 'nonactive-link'
+            }
+          >
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
