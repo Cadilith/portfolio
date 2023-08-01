@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from './project.module.css';
 import datas from '/json/projets.json';
 
 export default function Projects({ params }) {

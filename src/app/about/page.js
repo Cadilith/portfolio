@@ -1,4 +1,4 @@
-import styles from './page.module.css';
+import styles from './about.module.css';
 import about from '../../../json/apropos.json';
 
 export default function About() {

@@ -1,4 +1,4 @@
-import styles from './page.module.css';
+import styles from './home.module.css';
 import homeContent from '../../json/home.json';
 import Image from 'next/image';
 import Link from 'next/link';
