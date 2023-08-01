@@ -6,10 +6,13 @@
   padding: 1.6rem;
   min-height: 700px;
   position: relative;
+  margin-top: 45px;
+  z-index: 3;
 }
 .embla__viewport {
   overflow: hidden;
   height: 100%;
+  filter: drop-shadow(0 1px 0.4rem rgb(61, 61, 61));
 }
 .embla__container {
   backface-visibility: hidden;

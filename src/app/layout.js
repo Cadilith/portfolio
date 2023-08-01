@@ -60,7 +60,9 @@ export default function RootLayout({ children }) {
         <div className="container">
           {children}
           <aside>
-            <h2>PROJETS</h2>
+            <div className="aside__title__container">
+              <h2>PROJETS</h2>
+            </div>
             <EmblaCarousel data={data} options={OPTIONS} />
           </aside>
         </div>

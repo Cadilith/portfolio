@@ -50,12 +50,20 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+.aside__title__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  overflow: hidden;
+}
 aside h2 {
   text-align: right;
-  font-size: 67px;
-  margin-bottom: 15px;
+  font-size: 6.6rem;
+  z-index: 1;
   text-transform: uppercase;
-  padding-right: 10px;
+  line-height: 5rem;
+  margin-right: -10px;
 }
 
 a {
