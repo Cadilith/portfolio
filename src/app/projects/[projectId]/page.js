@@ -17,7 +17,7 @@ export default function Projects({ params }) {
           <section className={styles.project__text}>
             <p>{data[0].description1}</p>
           </section>
-          <section className={styles.project__img}>
+          <section className={`${styles.project__img} ${styles.img1}`}>
             <Image
               src={data[0].pictures[0]}
               height={350}
@@ -26,7 +26,7 @@ export default function Projects({ params }) {
               alt="project preview 1"
             />
           </section>
-          <section className={styles.project__img}>
+          <section className={`${styles.project__img} ${styles.img2}`}>
             <Image
               src={data[0].pictures[1]}
               height={350}

@@ -21,6 +21,8 @@
   writing-mode: vertical-lr;
   translate: -3rem;
   white-space: nowrap;
+  transform-origin: top;
+  animation: lefttitle 1.8s cubic-bezier(0.5, 1.6, 0.4, 0.9) forwards;
 }
 .main h2 {
   font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
@@ -46,6 +48,12 @@
   object-position: top;
   padding: 0.5rem;
 }
+.img1 {
+  animation: img1 0.7s ease-in forwards;
+}
+.img2 {
+  animation: img2 1s ease-in forwards;
+}
 .project__text {
   font-size: clamp(1rem, 0.7545rem + 0.4364vw, 1.3rem);
   padding: 1rem;
@@ -63,6 +71,40 @@
 .project__link {
   margin-top: 1rem;
 }
+
+/*Animations*/
+@keyframes img2 {
+  0% {
+    opacity: 0;
+    transform: translate(-100%, 0);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes img1 {
+  0% {
+    opacity: 0;
+    transform: translate(100%, 0);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+@keyframes lefttitle {
+  0%,
+  60% {
+    opacity: 0;
+    transform: rotate(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+
 @media (max-width: 1586px) {
   .main__title__wrapper {
     height: 100%;
