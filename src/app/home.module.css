@@ -28,11 +28,13 @@
 .home h2 {
   font-size: clamp(4.375rem, -0.7047rem + 7.9681vw, 9.375rem);
   font-weight: 500;
+  animation: toptobottom 1s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
 }
 .home h3 {
   font-size: clamp(2.5rem, 0.5951rem + 2.988vw, 4.375rem);
   font-weight: 500;
   white-space: nowrap;
+  animation: bottomtotop 1.3s ease-in-out forwards;
 }
 .home__about__portrait {
   position: relative;
@@ -40,6 +42,10 @@
   min-height: 250px;
   min-width: 200px;
   max-width: 280px;
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin: right bottom;
+  -o-transform-origin: right bottom;
+  animation: translateright 1.5s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
 }
 .home__about__portrait img {
   object-fit: cover;
@@ -95,6 +101,51 @@
 .home__contact__container svg {
   color: var(--secondary-color);
   height: 100%;
+}
+
+/* animations */
+@keyframes translateright {
+  0%,
+  40% {
+    opacity: 0;
+    translate: 100%;
+  }
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
+@keyframes profilepic {
+  0%,
+  30% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes toptobottom {
+  0% {
+    opacity: 0;
+    transform: translate(0, -60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@keyframes bottomtotop {
+  0%,
+  30% {
+    opacity: 0;
+    transform: translate(0, 60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 @media (max-width: 1020px) {
