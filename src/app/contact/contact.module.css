@@ -1,5 +1,6 @@
 .main h1 {
   font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
+  animation: toptobottom 1s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
 }
 .contact__container {
   display: flex;
@@ -7,6 +8,7 @@
   gap: 25px;
   margin-top: 25px;
   justify-content: space-between;
+  animation: translateright 0.7s forwards;
 }
 .contact__container textarea {
   overflow: auto;
@@ -29,6 +31,28 @@
 }
 .contact__img {
   width: 40%;
+}
+/* animations */
+@keyframes toptobottom {
+  0% {
+    opacity: 0;
+    transform: translate(0, -60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes translateright {
+  0% {
+    opacity: 0;
+    transform: translate(100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 @media (max-width: 1400px) {
