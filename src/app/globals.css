@@ -29,7 +29,8 @@ body {
   border-left: 1px solid var(--secondary-color);
   border-right: 1px solid var(--secondary-color);
 }
-main {
+main,
+.error {
   flex: auto;
   width: 65%;
   padding: 3%;
@@ -76,6 +77,37 @@ a {
   display: flex;
   flex-direction: row;
   flex: auto;
+}
+.error {
+  align-self: center;
+  text-align: center;
+}
+.error svg {
+  height: 10vh;
+  width: auto;
+}
+.error h2 {
+  font-size: 5rem;
+}
+.error p,
+h2 {
+  text-align: center;
+}
+.error p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.error button {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px;
+  border: none;
+  clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+  text-align: center;
+  margin: 35px;
+  cursor: pointer;
 }
 @media (max-width: 1350px) {
   aside h2 {
