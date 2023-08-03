@@ -13,7 +13,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const autoplayOptions = {
-  delay: 8000,
+  delay: 5000,
 };
 
 export default function EmblaCarousel(props) {
