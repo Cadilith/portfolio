@@ -4,7 +4,9 @@ import EmblaCarousel from '../components/Slider/EmblaCarousel';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import Loading from './loading';
 import data from '/json/projets.json';
+import { Suspense } from 'react';
 
 //Font import
 const barlowSemi = Barlow_Semi_Condensed({
@@ -57,8 +59,9 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body className={barlowSemi.className}>
         <Header />
+
         <div className="container">
-          {children}
+          <Suspense fallback={<Loading />}>{children}</Suspense>
           <aside>
             <div className="aside__title__container">
               <h2>PROJETS</h2>

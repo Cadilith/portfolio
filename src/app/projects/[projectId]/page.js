@@ -23,6 +23,7 @@ export default function Projects({ params }) {
               height={350}
               width={800}
               quality={100}
+              priority={true}
               alt="project preview 1"
             />
           </section>
@@ -32,6 +33,7 @@ export default function Projects({ params }) {
               height={350}
               width={800}
               quality={100}
+              priority={true}
               alt="project preview 2"
             />
           </section>
