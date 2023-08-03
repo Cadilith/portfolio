@@ -1,17 +1,26 @@
 'use client';
 import styles from './Slider.module.css';
+
 import useEmblaCarousel from 'embla-carousel-react';
-import Image from 'next/image';
+import Autoplay from 'embla-carousel-autoplay';
 import {
   PrevButton,
   NextButton,
   usePrevNextButtons,
 } from './EmblaCarouselArrowButtons';
+
+import Image from 'next/image';
 import Link from 'next/link';
+
+const autoplayOptions = {
+  delay: 8000,
+};
 
 export default function EmblaCarousel(props) {
   const { data, options } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options);
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+    Autoplay(autoplayOptions),
+  ]);
 
   const {
     prevBtnDisabled,
