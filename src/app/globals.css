@@ -59,14 +59,22 @@ input:focus {
   right: 0;
   height: 100px;
   overflow: hidden;
+  z-index: 5;
 }
 aside h2 {
   text-align: right;
   font-size: 6.6rem;
-  z-index: 1;
   text-transform: uppercase;
   line-height: 5rem;
-  margin-right: -10px;
+  color: var(--secondary-color);
+  text-shadow: -4px 5px var(--primary-color);
+  /* @supports (-webkit-text-stroke: 1px black) {
+  aside h2 {
+    font-weight: 700;
+    -webkit-text-stroke: 5px var(--primary-color);
+    -webkit-text-fill-color: var(--secondary-color);
+  }
+*/
 }
 
 a {
