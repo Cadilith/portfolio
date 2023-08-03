@@ -14,18 +14,14 @@ export default function Home() {
           xmlns="http://www.w3.org/2000/svg"
           stroke="currentColor"
         >
-          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
+          <g strokeWidth="0"></g>
+          <g strokeLinecap="round" strokeLinejoin="round"></g>
+          <g>
             <path d="M14.496 5.975l-.001 14.287-6.366-6.367L6 16.021l10.003 10.004L26 16.029 23.871 13.9l-6.366 6.368V5.977z"></path>
           </g>
         </svg>
       </div>
-      <article className={styles.home__about}>
+      <div className={styles.home__about}>
         <section className={styles.home__about__title__container}>
           <div className={styles.home__about__title}>
             <h2>{homeContent.title}</h2>
@@ -42,10 +38,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <div>
           <p>{homeContent.text}</p>
-        </section>
-        <section className={styles.home__contact__container}>
+        </div>
+        <div className={styles.home__contact__container}>
           <Collapse collapseTitle={' '}>
             <p>
               <a
@@ -88,8 +84,8 @@ export default function Home() {
               </Link>
             </p>
           </Collapse>
-        </section>
-      </article>
+        </div>
+      </div>
     </main>
   );
 }

@@ -12,7 +12,8 @@ function Collapse(props) {
     <div className={styles.collapse__container}>
       <div className={styles.collapse__title}>
         <p>{props.collapseTitle}</p>
-        <button
+        <div
+          className={styles.button}
           aria-expanded={open ? 'true' : 'false'}
           aria-controls="collapse-parent"
           aria-label="open this collapse"
@@ -22,7 +23,7 @@ function Collapse(props) {
             <span></span>
             <span></span>
           </label>
-        </button>
+        </div>
       </div>
 
       <div

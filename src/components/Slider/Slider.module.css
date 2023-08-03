@@ -82,6 +82,9 @@
 .embla__button:disabled {
   opacity: 0.3;
 }
+.embla__button__next {
+  transform: rotate(180deg);
+}
 
 @media (max-width: 1020px) {
   .embla {
@@ -105,8 +108,13 @@
     padding: 5px;
   }
   .embla__button {
-    transform: rotate(-90deg);
     width: 12%;
+  }
+  .embla__button__next {
+    transform: rotate(90deg);
+  }
+  .embla__button__prev {
+    transform: rotate(-90deg);
   }
   .embla__slide {
     padding-top: 0;
