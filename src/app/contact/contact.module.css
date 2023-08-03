@@ -1,3 +1,6 @@
+.main {
+  overflow-y: hidden;
+}
 .main h1 {
   font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);
   animation: toptobottom 1s cubic-bezier(0.47, 1.64, 0.41, 0.8) forwards;
