@@ -100,7 +100,7 @@ a {
   font-weight: 500;
 }
 .error p,
-h2 {
+.error h2 {
   text-align: center;
 }
 .error p {
@@ -146,6 +146,7 @@ h2 {
     font-size: 7rem;
     margin-top: -0.7rem;
     margin-right: -10px;
+    text-align: left;
   }
   main,
   .not_found,

@@ -12,7 +12,6 @@ export default function Home() {
           fill="currentColor"
           viewBox="0 0 32 32"
           xmlns="http://www.w3.org/2000/svg"
-          transform="rotate(-45)"
           stroke="currentColor"
         >
           <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -37,6 +36,7 @@ export default function Home() {
               <Image
                 src="/images/portrait.webp"
                 fill={true}
+                sizes="(max-width: 1020px) 328px, (max-width: 2024px) 278px"
                 alt="Tiffanie Orsoni"
               />
             </div>

@@ -9,6 +9,7 @@
   align-self: flex-start;
 }
 .arrow svg {
+  transform: rotate(-45deg);
   height: 35vh;
   margin: -35%;
 }
