@@ -30,7 +30,8 @@ body {
   border-right: 1px solid var(--secondary-color);
 }
 main,
-.error {
+.error,
+.not_found {
   flex: auto;
   width: 65%;
   padding: 3%;
@@ -78,8 +79,12 @@ a {
   flex-direction: row;
   flex: auto;
 }
+/* Error page */
 .error {
   align-self: center;
+}
+.error,
+.not_found {
   text-align: center;
 }
 .error svg {
@@ -88,6 +93,11 @@ a {
 }
 .error h2 {
   font-size: 5rem;
+}
+.not_found h1 {
+  text-decoration: underline;
+  font-size: 3rem;
+  font-weight: 500;
 }
 .error p,
 h2 {
@@ -109,6 +119,11 @@ h2 {
   margin: 35px;
   cursor: pointer;
 }
+.not_found img {
+  width: 80%;
+  max-height: 50vh;
+}
+
 @media (max-width: 1350px) {
   aside h2 {
     font-size: clamp(5rem, 0.7117rem + 6.7267vw, 6.4rem);
@@ -132,9 +147,14 @@ h2 {
     margin-top: -0.7rem;
     margin-right: -10px;
   }
-  main {
+  main,
+  .not_found,
+  .error {
     order: 2;
     width: 100%;
+  }
+  .not_found img {
+    max-height: 30vh;
   }
 }
 @media (max-width: 680px) {
