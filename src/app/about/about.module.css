@@ -12,7 +12,7 @@
   gap: 25px;
   margin-top: 25px;
   justify-content: space-between;
-  animation: translateright 0.7s forwards;
+  animation: translateright 1s forwards;
 }
 .about__intro {
   width: 50%;
