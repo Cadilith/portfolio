@@ -102,6 +102,11 @@
     margin-top: 0;
     height: 20vh;
   }
+  .embla__slide,
+  .embla__buttons {
+    min-height: 85px;
+    max-height: 260px;
+  }
   .embla__buttons {
     flex-direction: row;
     padding: 5px;
@@ -142,6 +147,12 @@
   }
   .embla__slide {
     margin-right: 0px;
+  }
+
+  .embla__slide,
+  .embla__buttons {
+    min-height: 85px;
+    max-height: 160px;
   }
 
   .embla__slide__img {

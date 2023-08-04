@@ -1,5 +1,5 @@
 .main {
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .main h1 {
   font-size: clamp(4rem, 2.3333rem + 2.963vw, 5rem);

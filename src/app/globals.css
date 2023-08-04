@@ -148,6 +148,7 @@ a {
     order: 1;
     width: 100%;
     max-width: none;
+    max-height: 360px;
     border-left: none;
     border-bottom: 1px solid var(--secondary-color);
     padding: 10px;
@@ -172,6 +173,7 @@ a {
   }
   aside {
     padding: 0.5rem 1.2rem;
+    max-height: 250px;
   }
 }
 @media (max-width: 630px) {

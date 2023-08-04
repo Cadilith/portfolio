@@ -15,7 +15,6 @@ function Collapse(props) {
         <div
           className={styles.button}
           aria-expanded={open ? 'true' : 'false'}
-          aria-controls="collapse-parent"
           aria-label="open this collapse"
         >
           <label htmlFor="check">
