@@ -12,11 +12,7 @@ function Collapse(props) {
     <div className={styles.collapse__container}>
       <div className={styles.collapse__title}>
         <p>{props.collapseTitle}</p>
-        <div
-          className={styles.button}
-          aria-expanded={open ? 'true' : 'false'}
-          aria-label="open this collapse"
-        >
+        <div className={styles.button} aria-expanded={open ? 'true' : 'false'}>
           <label htmlFor="check">
             <input type="checkbox" id="check" onClick={toggle} />
             <span></span>
