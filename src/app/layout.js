@@ -31,14 +31,8 @@ export const metadata = {
   creator: 'Tiffanie Orsoni',
   openGraph: {
     title: 'Web developer portfolio - Tiffanie Orsoni',
-    image: '/images/ogimage.png',
+    images: ['/images/ogimage.png', '/images/og1.png'],
     type: 'website',
-    description:
-      "Je suis Tiffanie Orsoni, 36 ans, développeuse front-end junior passionnée et motivée. J'aimerais renforcer mes compétences à vos côtés. Parlons-en !",
-  },
-  twitter: {
-    title: 'Web developer portfolio - Tiffanie Orsoni',
-    image: '/images/ogimage.png',
     description:
       "Je suis Tiffanie Orsoni, 36 ans, développeuse front-end junior passionnée et motivée. J'aimerais renforcer mes compétences à vos côtés. Parlons-en !",
   },
