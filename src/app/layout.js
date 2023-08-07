@@ -1,7 +1,8 @@
 import './globals.css';
 import { Barlow_Semi_Condensed } from 'next/font/google';
 import EmblaCarousel from '../components/Slider/EmblaCarousel';
-
+import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Loading from './loading';
@@ -56,6 +57,15 @@ export default function RootLayout({ children }) {
         <Header />
 
         <div className="container">
+          {/* <!-- Google tag (gtag.js) --> */}
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-E3LLQ254Q9" />
+          <Script id="google-analytics">
+            {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E3LLQ254Q9');`}
+          </Script>
           <Suspense fallback={<Loading />}>{children}</Suspense>
           <aside>
             <div className="aside__title__container">
@@ -65,6 +75,7 @@ export default function RootLayout({ children }) {
           </aside>
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
