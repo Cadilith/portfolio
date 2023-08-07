@@ -30,6 +30,7 @@ export const metadata = {
   ],
   creator: 'Tiffanie Orsoni',
   openGraph: {
+    url: 'www.tiffanieorsoni.com',
     title: 'Web developer portfolio - Tiffanie Orsoni',
     images: ['/images/ogimage.png', '/images/og1.png'],
     type: 'website',
