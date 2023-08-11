@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-E3LLQ254Q9');`}
           </Script>
-          <Suspense fallback={<Loading />}>{children}</Suspense>
+          {children}
           <aside>
             <div className="aside__title__container">
               <h2>PROJETS</h2>
