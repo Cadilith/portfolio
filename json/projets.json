@@ -30,7 +30,8 @@
     "pictures": ["/images/kasa1.webp", "/images/kasa2.webp"],
     "description1": "Dans le cadre du 6ème projet de ma formation de développeur web chez Openclassrooms, j'ai eu l'occasion de travailler sur la partie frontend de KASA, une application web de location immobilière.\nEn exploitant la puissance de React et Sass, j'ai intégré la maquette de conception fournie et mis en œuvre les composants spécifiques au projet. Parmi ces composants, les plus notables étaient les éléments collapsables et le slider, pour lesquels j'ai veillé à créer des animations fluides pour offrir une expérience utilisateur améliorée.",
     "description2": "Puisque la partie backend du projet n'avait pas encore été développée, j'ai temporairement utilisé un fichier JSON pour afficher dynamiquement les propriétés disponibles.\nTout au long de ce projet, j'ai perfectionné mes compétences en développement frontend et acquis une précieuse expérience dans la création d'interfaces utilisateur attrayantes. Pour KASA, j'ai utilisé Sass pour maintenir des styles organisés, tandis que React a servi de framework frontend, garantissant une interface utilisateur cohérente.",
-    "repository": "https://github.com/Cadilith/P6-KASA"
+    "repository": "https://github.com/Cadilith/P6-KASA",
+    "link": "https://p6-kasa.vercel.app/"
   },
   {
     "id": "pro1YQ4YRwd",
