@@ -42,7 +42,8 @@
     "pictures": ["/images/booki1.webp", "/images/booki2.webp"],
     "description1": "Dans le cadre de ma formation de développeur web chez Openclassrooms, j'ai entrepris mon premier projet - créer la page d'accueil de Booki, une agence de voyage. Ce projet a marqué le début de mon parcours en développement web, posant les bases de mes futures réalisations pour concevoir des pages web attrayantes et captivantes visuellement.",
     "description2": "Assurer une expérience utilisateur fluide sur différents appareils est devenu le défi principal de cette mission, me poussant à explorer et mettre en œuvre de nouvelles techniques CSS pour obtenir un site entièrement responsive.\nEn travaillant avec le design Figma fourni, j'ai intégré le site en utilisant HTML et CSS, plongeant ainsi dans les principes essentiels du développement web.",
-    "repository": "https://github.com/Cadilith/P2-Bookie"
+    "repository": "https://github.com/Cadilith/P2-Bookie",
+    "link": "https://p2-bookie.vercel.app/"
   },
   {
     "id": "proEMPZEFwd",
