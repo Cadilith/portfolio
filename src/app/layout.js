@@ -33,7 +33,10 @@ export const metadata = {
   openGraph: {
     url: 'www.tiffanieorsoni.com',
     title: 'Web developer portfolio - Tiffanie Orsoni',
-    images: ['/images/ogimage.png', '/images/og1.png'],
+    images: [
+      'https://tiffanieorsoni.com/images/ogimage.png',
+      'https://tiffanieorsoni.com/images/og1.png',
+    ],
     type: 'website',
     description:
       "Je suis Tiffanie Orsoni, 36 ans, développeuse front-end junior passionnée et motivée. J'aimerais renforcer mes compétences à vos côtés. Parlons-en !",
