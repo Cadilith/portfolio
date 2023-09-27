@@ -55,5 +55,17 @@
     "description1": "Cette mission marque la fin de ma formation chez Openclassrooms.  Dans ce projet final, j'ai concentré mon travail sur le développement backend en utilisant Node.js, Express et MongoDB.\nGuidée par les spécifications techniques de l'API, j'ai codé les endpoints et configuré la base de données pour assurer un fonctionnement fluide.",
     "description2": "Les principaux défis étaient liés à la sécurisation de la base de données et à l'optimisation des fichiers images téléchargés. Heureusement, j'ai réussi à surmonter ces obstacles en tirant parti d'outils puissants tels que Multer, Sharp, Helmet et Sanitize ; en plus des fonctions de logique côté serveur que j'ai implémentées.",
     "repository": "https://github.com/Cadilith/P7_mon_vieux_grimoire"
+  },
+  {
+    "id": "pro3TH9KSry",
+    "title": "Genshin Impact Challenge",
+    "subtitle": "Générateur de défis aléatoires",
+    "cover": "/images/genshin_cover.webp",
+    "logo": "/images/genshin_logo.svg",
+    "pictures": ["/images/genshin1.webp", "/images/genshin2.webp"],
+    "description1": "Cette première application est née de ma passion pour le jeu Genshin Impact et de mon désir de mettre en pratique mes compétences en développement.\nGenshin Impact Challenge est une application qui génère des défis de combat aléatoires pour les joueurs. Ces défis comprennent un boss aléatoire à vaincre avec une équipe de 4 membres également choisis au hasard. J'ai développé cette application en utilisant React.\nUn aspect particulièrement intéressant de ce projet est que je m'efforce de le maintenir constamment à jour avec les nouvelles versions du jeu.",
+    "description2": "Cependant, ce n'est que le début. Mon ambition est d'améliorer en permanence cette application à mesure que je progresse en compétences. J'ai déjà des idées prometteuses pour de futures fonctionnalités, telles qu'un système de filtrage pour les personnages et la possibilité de partager des défis générés sur les réseaux sociaux.",
+    "repository": "https://github.com/Cadilith/genshin-random-challenge",
+    "link": "https://genshin-challenge.vercel.app/"
   }
 ]
